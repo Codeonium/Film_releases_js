@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a:hover, a:active, a:focus {
+  border: 20px;
+  color: rgb(0, 255, 255) ;
+  box-shadow: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:link, a:visited{
+  color: goldenrod;
+  text-shadow: 1.5px 1px red;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: blanchedalmond;
+  border-top:10px solid royalblue;
+  border-bottom:10px solid red;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+thead {
+  background-color: blueviolet;
+}
+
+body {
+  text-align: center;
+  padding: 10px;
+}

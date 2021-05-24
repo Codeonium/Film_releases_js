@@ -1,8 +1,17 @@
 const Film = ({name, children}) => {
     return (
         <>
-            <p>{name}</p>
-            <button><a href={children}> Click to See info</a></button>
+        <table>
+            <thead>
+                <tr>
+                    <th>{name}</th>
+                    <th><button><a href={children}>Info</a></button></th>
+                </tr>
+            </thead>
+                <tbody>
+
+                </tbody>
+            </table>
         </>
     )
 }

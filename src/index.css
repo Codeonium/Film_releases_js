@@ -1,10 +1,14 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 500px;
+  margin: auto;
+  padding: 0px;
+  border:2px solid black;
+  box-sizing:border-box;
 }
 
 code {
@@ -12,23 +16,26 @@ code {
     monospace;
 }
 
-a:hover, a:active, a:focus {
-  border: 20px;
-  color: rgb(0, 255, 255) ;
-  box-shadow: 20px;
-  cursor: pointer;
+a:link,a:active, a:focus, a:visited, a:hover{
+  color: blue;
   text-decoration: none;
+  cursor: pointer;
 }
 
-a:link, a:visited{
-  color: goldenrod;
-  text-shadow: 1.5px 1px red;
-  background-color: transparent;
-  text-decoration: none;
-  text-transform: uppercase;
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border:0;
+  background-color: lightgrey;
+}
+
+div {
+  background-color: lightgrey;
 }
 
 button:hover {
+  display: block;  
   background-color: blanchedalmond;
   border-top:10px solid royalblue;
   border-bottom:10px solid red;
@@ -38,11 +45,19 @@ button:hover {
   cursor: pointer;
   text-decoration: none;
 }
-thead {
-  background-color: blueviolet;
+button {
+  background-color: lightblue;
+  border: 2px solid black;
+  color: deeppink;
+  font-weight: bolder;
+  width : 93%;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  text-transform: capitalize;
 }
 
-body {
-  text-align: center;
-  padding: 10px;
+li {
+
 }
+
